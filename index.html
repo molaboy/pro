@@ -33,6 +33,18 @@
 
 
     }
+    .card{opacity: 1;
+      transition: 0.3s;
+ }
+ .card:hover {
+  opacity: 0.4;
+ }
+
+
+
+
+
+
 .navbar navbar-expand-lg navbar-light bg-light{background-color: rgb(196, 156, 56);}
     .navbar-brand img { width: 200px;
 
@@ -92,8 +104,24 @@ article{
     /*animation example*/
 
     
-    .no{color: rgb(196, 156, 56) ;}
-    
+    .ic{
+      color: rgb(196, 156, 56) ;
+      
+      width: 300px;
+       font-size: 50px;
+       line-height:150px ;
+       text-align: center;
+       transform-origin: .3s ease;
+       
+    }
+    .ic:hover {transform: scale(0.6);
+                -webkit-transform: scale(0.6);
+                -ms-transform: scale(0.6);
+    }
+.footer img{transform-origin: .3s ease;}
+.footer img:hover{transform: scale(1.6);
+                -webkit-transform: scale(1.6);
+                -ms-transform: scale(1.6);}
     
     </style>
 
@@ -147,13 +175,14 @@ article{
 
   </div>
 </nav>
-<div class="img">  <a class="navbar-brand" href="#"><img src="pic.jpg" class="img-thumbnail" alt="..."class="ball"></a></div>
 </div><section><div class="row justify-content-start">
     <div class="col-4">
     </div>
      <div class="row align-items-top">
     <div class="col-4">
     <h1> About Me</h1>
+    <div class="img"> <a class="navbar-brand" href="#"><img src="pic.jpg" class="img-thumbnail" alt="..."class="ball"></a></div>
+
     </div>
     <div class="col-8">
       <p>  <hr> <h1 class="display-4"><i class="no">Hi there...</i></h1> I am Sphephelo Lewis Sibanda, a passionate developer with expertise in UX (User Experience) and XI (Interaction Design). My years of experience and dedication to the field have allowed me to become an expert in HTML, CSS, JavaScript, and React. In addition to my development skills, I also have experience using Figma to create stunning designs and wireframes.
